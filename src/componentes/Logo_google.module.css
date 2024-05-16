@@ -1,0 +1,16 @@
+img {
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+    object-position:center bottom;
+    width:auto;
+}
+.logoGo {
+    max-height:92px;
+    text-align: center;
+    width: 280px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 11%;
+
+}

@@ -1,0 +1,146 @@
+.interacao{
+    display: flex;
+    justify-content: center;
+    font-family: arial,sans-serif;
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 47px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 34px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: auto;
+    max-width: 582px;
+    align-items: center;
+
+}
+
+.interacao:hover{
+    box-shadow: 0 0 5px 0 rgb(221, 221, 221);
+}
+
+.iconPesquisa{
+    margin-left: 5px;
+}
+
+.barraDePesquisa{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    
+}
+
+textarea{
+    font-size: 16px;
+    flex: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    width: 470px;
+    padding-top: 3px;
+    
+}
+
+.opcoesDePesq{
+    display: flex;
+    align-items: center;
+    grid-gap: 8px;
+    margin-right: 15px;
+}
+
+.pesquisa{
+    width: 480px;
+}
+
+.opcaoDePesq:hover{
+    cursor: pointer;
+}
+
+.botoesInt{
+    margin-top: 20px;
+
+}
+
+.botao{
+    
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+
+}
+
+.botao:hover{
+    cursor: pointer;
+    border: 1px solid #c5c5c5;
+}
+
+.pesquisaGoogle{
+    margin-right: 7px;
+}
+
+.sorte{
+    margin-left: 7px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0.5% 40% 0 42%;
+
+}
+
+.areaCheck{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.iconCheck{
+    width: 47px;
+    height: 50px;
+    top: -3482px;
+    left: 1237px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.textCheck{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1A0DBD;
+
+}
+
+.textCheck:hover{
+    cursor: pointer;
+}

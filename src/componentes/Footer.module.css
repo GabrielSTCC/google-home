@@ -1,0 +1,82 @@
+.footer{
+
+    --COEmY: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: var(--COEmY);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0; /* Fixa o container no final da página */
+    left: 0; /* Posiciona o container no canto esquerdo */
+    width: 100%; /* Faz o container ocupar toda a largura da página */
+    
+}
+
+.brasil{
+    
+    --gS5jXb: #dadce0;
+    --YLNNHc: #202124;
+    font-family: arial,sans-serif;
+    padding: 15px 30px;
+    border-bottom: 1px solid var(--gS5jXb);
+    font-size: 15px;
+    color: var(--YLNNHc);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerS{
+    
+    --COEmY: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: var(--COEmY);
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parteUm{
+    
+    --COEmY: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: var(--COEmY);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+
+.parteDois{
+    
+    --COEmY: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: var(--COEmY);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inf{
+    
+    --YLNNHc: #202124;
+    
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: var(--YLNNHc);
+}
+
+.inf:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+.cabecalho{
+    display: flex;
+    justify-content: right;
+    align-items: space-between;
+    margin-right: 15px;
+    margin-top: 5px;
+    
+}
+
+
+.imagem:hover{
+    border-radius: 50%;
+    box-shadow: 0 0 15px 0 rgb(221, 221, 221);
+    padding: initial;
+}
+
+.textLine{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    display: flex;
+    grid-gap: 18px;
+    align-self: center;
+    margin-right: 20px;
+    
+}
+
+.text:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.icons{
+    text-align: center;
+    display: flex;
+    grid-gap: 8px;
+    align-self: center;
+
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+.menu{
+    margin-top: 8px;
+}
