@@ -1,3 +1,39 @@
+**README**
+
+---
+
+**Google Clone**
+
+Este é um clone simplificado da página inicial do Google, implementado em React.js. Ele consiste em quatro componentes principais:
+
+1. **Cabecalho**: Contém links para as diferentes seções do Google, como Gmail e Imagens. Além disso, inclui ícones para o menu de opções e a conta do usuário.
+
+2. **Logo_google**: Exibe o logotipo do Google.
+
+3. **AreaDePesquisa**: Simula a barra de pesquisa do Google, com campos de texto, opções de pesquisa por voz e teclado, além de botões para executar a pesquisa no Google ou "Estou com sorte". Também inclui um link para o Check-up de privacidade.
+
+4. **Footer**: Apresenta informações sobre o país (Brasil) e links para diferentes seções, como Sobre, Publicidade, Privacidade, Termos e Configurações.
+
+**Instruções de Execução:**
+
+1. Certifique-se de ter o Node.js instalado em seu sistema.
+2. Clone este repositório em sua máquina local.
+3. Navegue até o diretório raiz do projeto no terminal.
+4. Execute o comando `npm install` para instalar todas as dependências necessárias.
+5. Após a conclusão da instalação, execute `npm start` para iniciar o servidor de desenvolvimento.
+6. Abra o navegador e visite `http://localhost:3000` para ver o clone do Google em ação.
+
+**Tecnologias Utilizadas:**
+
+- React.js
+- CSS Modules
+
+**Autor:**
+
+Este projeto foi desenvolvido por [Gabriel Santos].
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
